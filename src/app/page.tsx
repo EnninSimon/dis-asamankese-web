@@ -18,10 +18,16 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="/contact"
+              href="/about"
               className="inline-flex h-11 items-center rounded-lg bg-navy px-5 text-sm font-medium text-cream hover:bg-navy/90"
             >
-              Contact the school
+              About DIS
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex h-11 items-center rounded-lg border border-navy/20 bg-white px-5 text-sm font-medium text-navy hover:bg-navy/5"
+            >
+              Contact
             </Link>
             {whatsapp ? (
               <a

@@ -3,6 +3,7 @@ import { site, whatsappHref } from "@/lib/site";
 
 const links = [
   { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
 
