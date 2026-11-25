@@ -5,12 +5,9 @@ export const site = {
   town: "Asamankese",
   region: "Eastern Region, Ghana",
   domain: "https://dis-asamankese.com",
-  /** Office landline or mobile, with country code, e.g. +233 20 000 0000 */
-  phoneDisplay: "",
-  /** Digits only for tel: links, e.g. 233200000000 */
-  phoneE164: "",
-  /** WhatsApp digits only, country code first, no plus, e.g. 233200000000 */
-  whatsapp: "",
+  phoneDisplay: "+233 24 421 2481",
+  phoneE164: "233244212481",
+  whatsapp: "233244212481",
   email: "info@dis-asamankese.com",
   mapSearch: "Deutsche International School Asamankese",
 };
