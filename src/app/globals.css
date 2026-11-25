@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #1b2433;
+  --color-green: #0d7340;
+  --color-orange: #d96b21;
+  --color-gold: #b8870a;
+  --color-cream: #fbf7ef;
+  --color-whatsapp: #128c7e;
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-navy);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
